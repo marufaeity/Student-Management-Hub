@@ -1,0 +1,40 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600" prefWidth="700" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="studentmanger.AttendanceController">
+
+     Header 
+    <Label layoutX="266.0" layoutY="20.0" style="-fx-font-size: 18px; -fx-font-weight: bold;" text="Student Attendance" />
+
+     Attendance Taking Table 
+    <TableView fx:id="attendanceTable" editable="true" layoutX="50" layoutY="60" prefHeight="200" prefWidth="600">
+        <columns>
+            <TableColumn fx:id="idCol" prefWidth="100" text="ID" />
+            <TableColumn fx:id="nameCol" prefWidth="300" text="Name" />
+            <TableColumn fx:id="presentCol" prefWidth="200" text="Present?" />
+        </columns>
+    </TableView>
+
+     Save Button 
+    <Button layoutX="298.0" layoutY="275.0" onAction="#saveAttendance" text="Save Attendance" />
+
+     Attendance History Label 
+    <Label layoutX="278.0" layoutY="318.0" style="-fx-font-size: 16px; -fx-font-weight: bold;" text="Attendance History" />
+
+     Attendance History Table 
+    <TableView fx:id="historyTable" layoutX="50" layoutY="350" prefHeight="200" prefWidth="600">
+        <columns>
+            <TableColumn fx:id="histIdCol" prefWidth="100" text="ID" />
+            <TableColumn fx:id="histNameCol" prefWidth="200" text="Name" />
+            <TableColumn fx:id="histPresentCol" prefWidth="100" text="Present?" />
+            <TableColumn fx:id="histDateCol" prefWidth="200" text="Date" />
+        </columns>
+    </TableView>
+<Button layoutX="552.0" layoutY="561.0" onAction="#deleteAttendanceHistory" text="Delete History" />
+
+</AnchorPane>-->
