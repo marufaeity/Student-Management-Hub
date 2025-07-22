@@ -174,7 +174,7 @@ public class FXMLDocumentController {
     @FXML
     private void openAttendanceWindow(ActionEvent event) {
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("add.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("attendance.fxml"));
             Stage stage = new Stage();
             stage.setTitle("Student Attendance");
             stage.setScene(new Scene(loader.load()));
